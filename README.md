@@ -9,23 +9,23 @@ How to use these files:
 
 Set up environment
 
-. ./envinit.sh 
+###. ./envinit.sh 
 
 Copy over kernel zImage (you need to modify this script to point to your kernel)
 
-./loadArchZImage.sh
+###./loadArchZImage.sh
 
 Build bootloader
 
-make
+###make
 
 Clear Bootloader
 
-./clearbootsector.sh ##DANGEROUS CHECK THIS BEFORE RUNNING
+###./clearbootsector.sh ##DANGEROUS CHECK THIS BEFORE RUNNING
 
 Install Bootloader (WARNING: this uses a predefined device and the DD command)
 
-./installbootsector.sh ##DANGEROUS CHECK THIS BEFORE RUNNING
+###./installbootsector.sh ##DANGEROUS CHECK THIS BEFORE RUNNING
 
 
 Additional Notes:
