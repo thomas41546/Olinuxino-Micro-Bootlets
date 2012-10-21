@@ -1,0 +1,2 @@
+console=ttyAMA0,115200 root=/dev/mmcblk0p2 rw rootwait ssp1=mmc
+noinitrd console=ttyAMA0,115200 root=/dev/mmcblk0p2 rw rootwait ssp1=mmc

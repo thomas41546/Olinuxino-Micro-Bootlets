@@ -1,0 +1,11 @@
+#To create the boot image sd_mmc_bootstream.raw from the kernel zImage:
+
+# set environment variables
+. ./envinit.sh
+
+# ensure that kernel zImage is copied to the imx-bootlets directory
+# run make in the imx-bootlets directory
+make
+
+# you should now have a sd_mmc_bootstream.raw image that you can dd 
+# into the boot partition of the SD card
